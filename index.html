@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taha Gujri - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ===== Header Section ===== -->
+    <header>
+        <h1>Taha Gujri</h1>
+        <p>Python & Front-End Developer</p>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="#fun">Video</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ===== About Section ===== -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm <strong>Taha</strong>, a passionate learner exploring Python, web development, and data science.
+                I love building web apps and learning new technologies.</p>
+            <img src="profile.jpg.png" alt="Taha Profile Photo" width="300">
+        </section>
+
+        <!-- ===== Skills Section ===== -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Python Programming</li>
+                <li>HTML5 & CSS3</li>
+                <li>SQL & Databases</li>
+                <li>FastAPI & Flask</li>
+                <li>Machine Learning Basics</li>
+            </ul>
+        </section>
+
+        <!-- ===== Projects Section ===== -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>1. Sentiment Analysis App</h3>
+                <p>Built a movie review classifier using Python, Keras, and LSTM networks.</p>
+                <a href="#">View on GitHub</a>
+            </article>
+
+            <article>
+                <h3>2. SQL Data Dashboard</h3>
+                <p>Created an interactive dashboard using Python and SQL for business analytics.</p>
+                <a href="#">View Details</a>
+            </article>
+        </section>
+
+        <!-- ===== Contact Section ===== -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you’d like to get in touch, feel free to send me a message below!</p>
+
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="username" placeholder="Enter your name"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="useremail" placeholder="Enter your email"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="userMessage" rows="4" cols="40"
+                    placeholder="Type your message"></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+        <!-- ===== Fun Section ===== -->
+        <section id="fun">
+            <h2>Watch My Favorite Tech Video</h2>
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/Ke90Tje7VS0" allowfullscreen></iframe>
+        </section>
+
+    </main>
+
+    <!-- ===== Footer Section ===== -->
+    <footer>
+        <p>© 2025 Taha Gujri | Built with ❤️ using HTML5 & CSS3</p>
+    </footer>
+
+</body>
+
+</html>
